@@ -81,6 +81,11 @@ main {
     .nav-menu.active {
         left: 0;
     }
+    .hamburger {
+        display: block;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
     .hero h1,
     .about-hero h1,
     .contact-hero h1 {
