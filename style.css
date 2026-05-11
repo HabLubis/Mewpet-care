@@ -173,6 +173,53 @@ main {
     color: white;
     text-align: center;
 }
+.profile-section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 4rem;
+    padding: 80px 0;
+    align-items: center;
+}
+.profile-img {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    color: white;
+    animation: pulse 2s infinite;
+}
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+.profile-info h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+.profile-info p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: #666;
+}
+.stats {
+    display: flex;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+.stat {
+    text-align: center;
+}
+.stat h3 {
+    font-size: 2rem;
+    color: #4A90E2;
+}
 
 /*laman contact*/
 .contact-hero {
