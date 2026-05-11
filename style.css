@@ -57,7 +57,8 @@ header {
 }
 .hamburger { 
     display: none; 
-    font-size: 1.5rem; 
+    font-size: 1.5rem;
+    flex-direction: column; 
     cursor: pointer; 
     color: white; 
 }
@@ -163,4 +164,51 @@ main {
     .hero p { font-size: 1.1rem; }
     .hero-buttons { flex-direction: column; align-items: center; }
     .btn { width: 100%; max-width: 280px; }
+}
+
+/*laman about*/
+.about-hero {
+    padding: 120px 0 80px;
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    color: white;
+    text-align: center;
+}
+
+/*laman contact*/
+.contact-hero {
+    padding: 120px 0 80px;
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    color: white;
+    text-align: center;
+}
+
+/*footer*/
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-links a {
+    color: white;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #FFD700;
 }
