@@ -58,6 +58,8 @@ nav {
 .hamburger {
     display: none;
     color: white;
+    font-size: 1.8rem;
+    cursor: pointer;
 }
 
 /*main*/
@@ -273,6 +275,7 @@ footer {
         padding: 2rem 0;
         transition: left 0.3s ease;
         box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        z-index: 1001;
     }
     .nav-menu.active {
         left: 0;
@@ -280,7 +283,6 @@ footer {
     .hamburger {
         display: block;
         font-size: 1.5rem;
-        cursor: pointer;
     }
     .hero h1,
     .about-hero h1,
