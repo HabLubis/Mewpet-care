@@ -59,7 +59,7 @@ nav {
 .hamburger {
     display: none;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     cursor: pointer;
 }
 
@@ -246,6 +246,9 @@ footer {
 
 /*responsif*/
 @media (max-width: 768px) {
+    .hamburger {
+        display: flex !important;
+    }
     .nav-menu {
         position: fixed;
         left: -100%;
@@ -257,10 +260,7 @@ footer {
         transition: left 0.3s;
     }
     .nav-menu.active {
-        left: 0;
-    }
-    .hamburger {
-        display: block;
+        left: 0 !important;
     }
     .hero h1,
     .about-hero h1,
